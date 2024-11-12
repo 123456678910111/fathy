@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+ background-color: #eee;
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+li {
+list-style: none;
+}
+
+.span {
+    font-size: 19px;
+}
+
+header ul {
+    display: flex;
+
+}
+header ul li {
+    padding: 10px;
+  cursor: pointer;
+}
+
+
+@media(max-width: 500px) {
+    .span {
+        font-size: 17px;
+    }
+    header ul li {
+        padding: 4px;
+      cursor: pointer;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+    }
+}

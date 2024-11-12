@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+.btn span {
+  color: yellow;
+}
+.btn {
+  height: 85vh;
+  background-color: lightskyblue;
+}
+
+
+.btn h1 {
+  margin-left: 25rem;
+  font-size: 18px;
+  
+  }
+  
+@media(max-width: 500px) {
+
+  .btn h1 {
+    margin-left: 9rem;
+    font-size: 18px;
+    
+    }
+ .btn .btnn  {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 25% 27%;
+    margin-top: 1rem;
+    margin-left: 3px;
+    }
+}
+
+.btnn  {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50% 22%;
+margin-top: 1rem;
+  text-align: center;
+}
+
+.btnn .my h2 {
+  font-size: 20px;
+}
+.btnn .my p {
+  font-size: 13px;
+}
+
+.btnn .my {
+  background-color: #fff;
+width: 70%;
+height: 20vh;
+margin: 2rem;
+border-radius: 5px;
+
+}
